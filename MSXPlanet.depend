@@ -1,0 +1,1055 @@
+# depslib dependency file v1.0
+1555225579 source:/home/jose/Escritorio/proyectos/msxplanet/main.cpp
+	<SFML/Graphics.hpp>
+	<Juego.h>
+	<SFML/System.hpp>
+
+1555225579 /home/jose/Escritorio/proyectos/msxplanet/include/Juego.h
+	<iostream>
+	<State.h>
+	<SFML/Graphics.hpp>
+
+1555274217 /home/jose/Escritorio/proyectos/msxplanet/include/State.h
+	<SFML/Graphics.hpp>
+
+1555271977 /home/jose/Escritorio/proyectos/msxplanet/include/StateIntro.h
+	<Juego.h>
+	<SFML/Graphics.hpp>
+
+1555271948 /home/jose/Escritorio/proyectos/msxplanet/include/StateMenu.h
+	<Juego.h>
+	<SFML/Graphics.hpp>
+
+1555347133 /home/jose/Escritorio/proyectos/msxplanet/include/StateInGame.h
+	<Juego.h>
+	<Nivel.h>
+	<Jugador1.h>
+	<Jugador2.h>
+	<Mapa.h>
+	<Hud.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	<stdio.h>
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/Nivel.h
+	<Mapa.h>
+	<Enemigo.h>
+	<Pocion.h>
+	<iostream>
+	<vector>
+	"Jugador.h"
+	"Bala.h"
+
+1555353638 /home/jose/Escritorio/proyectos/msxplanet/include/Mapa.h
+	<SFML/Graphics.hpp>
+	<TileMap.h>
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/TileMap.h
+	<SFML/Graphics.hpp>
+	<cstdlib>
+	<iostream>
+
+1555353638 /home/jose/Escritorio/proyectos/msxplanet/include/Enemigo.h
+	<SFML/Graphics.hpp>
+	<math.h>
+	<iostream>
+	<vector>
+	<algorithm>
+	"Jugador.h"
+	"Mapa.h"
+	"Nodo.h"
+
+1555355574 /home/jose/Escritorio/proyectos/msxplanet/include/Jugador.h
+	<Jugador.h>
+	<Mapa.h>
+	<ObjetoMapa.h>
+	<Bomba.h>
+	<Llave.h>
+	<Roca.h>
+	<Pocion.h>
+	<Puerta.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555248651 /home/jose/Escritorio/proyectos/msxplanet/include/ObjetoMapa.h
+	<SFML/Graphics.hpp>
+
+1555362000 /home/jose/Escritorio/proyectos/msxplanet/include/Bomba.h
+	<ObjetoMapa.h>
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/Llave.h
+	<ObjetoMapa.h>
+
+1555225579 /home/jose/Escritorio/proyectos/msxplanet/include/Roca.h
+	<ObjetoMapa.h>
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/Pocion.h
+	<iostream>
+	<ObjetoMapa.h>
+	<SFML/Graphics.hpp>
+
+1555353638 /home/jose/Escritorio/proyectos/msxplanet/include/Nodo.h
+	<iostream>
+
+1555347119 /home/jose/Escritorio/proyectos/msxplanet/include/Bala.h
+	<iostream>
+	<Enemigo.h>
+	<Juego.h>
+
+1555352571 /home/jose/Escritorio/proyectos/msxplanet/include/Jugador1.h
+	<Jugador.h>
+	<SFML/Graphics.hpp>
+
+1555274217 /home/jose/Escritorio/proyectos/msxplanet/include/Jugador2.h
+	<Jugador.h>
+
+1555348878 /home/jose/Escritorio/proyectos/msxplanet/include/Hud.h
+	"SFML/Graphics.hpp"
+	<Jugador.h>
+
+1555271957 /home/jose/Escritorio/proyectos/msxplanet/include/StateMapa.h
+	<Juego.h>
+	<SFML/Graphics.hpp>
+
+1555225579 source:/home/jose/Escritorio/proyectos/msxplanet/src/Arma.cpp
+	"Arma.h"
+	"Jugador.h"
+	"Bala.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555225579 /home/jose/Escritorio/proyectos/msxplanet/include/Arma.h
+	<ObjetoMapa.h>
+	"Motor2D.h"
+	"Jugador.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/Motor2D.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/Utils.h
+	<iostream>
+	<sstream>
+
+1555347119 source:/home/jose/Escritorio/proyectos/msxplanet/src/Bala.cpp
+	"Bala.h"
+	"Arma.h"
+	<SFML/Graphics.hpp>
+
+1555363630 source:/home/jose/Escritorio/proyectos/msxplanet/src/Bomba.cpp
+	"Bomba.h"
+	"Enemigo.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555080086 source:/home/jose/Escritorio/proyectos/msxplanet/src/Constantes.cpp
+	"Constantes.h"
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/Constantes.h
+	<SFML/Graphics.hpp>
+
+1555353638 source:/home/jose/Escritorio/proyectos/msxplanet/src/Enemigo.cpp
+	"Enemigo.h"
+
+1555353638 source:/home/jose/Escritorio/proyectos/msxplanet/src/EnemigoAereo.cpp
+	"EnemigoAereo.h"
+	<iostream>
+	<math.h>
+	<vector>
+	<algorithm>
+	<SFML/Graphics.hpp>
+
+1555353638 /home/jose/Escritorio/proyectos/msxplanet/include/EnemigoAereo.h
+	"Enemigo.h"
+	<SFML/Graphics.hpp>
+
+1555227194 source:/home/jose/Escritorio/proyectos/msxplanet/src/EnemigoEstatico.cpp
+	"EnemigoEstatico.h"
+
+1555090533 /home/jose/Escritorio/proyectos/msxplanet/include/EnemigoEstatico.h
+	<Enemigo.h>
+
+1555353638 source:/home/jose/Escritorio/proyectos/msxplanet/src/EnemigoExplosivo.cpp
+	"EnemigoExplosivo.h"
+
+1555353638 /home/jose/Escritorio/proyectos/msxplanet/include/EnemigoExplosivo.h
+	"Enemigo.h"
+
+1555080086 source:/home/jose/Escritorio/proyectos/msxplanet/src/EnemigoFactory.cpp
+	"EnemigoFactory.h"
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/EnemigoFactory.h
+	"Enemigo.h"
+	"EnemigoExplosivo.h"
+	"EnemigoAereo.h"
+	"EnemigoEstatico.h"
+	"EnemigoMSX.h"
+
+1555274026 /home/jose/Escritorio/proyectos/msxplanet/include/EnemigoMSX.h
+	<vector>
+	<stdlib.h>
+	<math.h>
+	<Enemigo.h>
+	<SFML/Graphics.hpp>
+
+1555274026 source:/home/jose/Escritorio/proyectos/msxplanet/src/EnemigoMSX.cpp
+	"EnemigoMSX.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<math.h>
+
+1555348763 source:/home/jose/Escritorio/proyectos/msxplanet/src/Hud.cpp
+	"Hud.h"
+	<Motor2D.h>
+	<Constantes.h>
+	<Juego.h>
+
+1555361184 source:/home/jose/Escritorio/proyectos/msxplanet/src/Juego.cpp
+	"Juego.h"
+	"Constantes.h"
+	<SFML/Graphics.hpp>
+	<State.h>
+	<StateIntro.h>
+	<StateMenu.h>
+	<StateMapa.h>
+	<StateInGame.h>
+	<StateGameOver.h>
+
+1555362500 source:/home/jose/Escritorio/proyectos/msxplanet/src/Jugador.cpp
+	"Juego.h"
+	"Jugador.h"
+	"Mapa.h"
+	"Arma.h"
+	"ObjetoMapa.h"
+	"Constantes.h"
+	"Arma.h"
+	"Bomba.h"
+	"Llave.h"
+	"Roca.h"
+	"Pocion.h"
+	"Enemigo.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555352574 source:/home/jose/Escritorio/proyectos/msxplanet/src/Jugador1.cpp
+	"Jugador1.h"
+	"Mapa.h"
+	"iostream"
+
+1555339798 source:/home/jose/Escritorio/proyectos/msxplanet/src/Jugador2.cpp
+	"Jugador2.h"
+	"iostream"
+
+1555080086 source:/home/jose/Escritorio/proyectos/msxplanet/src/Llave.cpp
+	"Llave.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555080086 source:/home/jose/Escritorio/proyectos/msxplanet/src/Mapa.cpp
+	"Mapa.h"
+	"Constantes.h"
+
+1555080086 source:/home/jose/Escritorio/proyectos/msxplanet/src/Motor2D.cpp
+	"Motor2D.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555226885 source:/home/jose/Escritorio/proyectos/msxplanet/src/Nivel.cpp
+	"Nivel.h"
+	<iostream>
+	<Enemigo.h>
+
+1555355574 source:/home/jose/Escritorio/proyectos/msxplanet/src/NivelFactory.cpp
+	"NivelFactory.h"
+	"Utils.h"
+	"EnemigoFactory.h"
+	"Pocion.h"
+	"Roca.h"
+	"Arma.h"
+	"Bomba.h"
+	"Llave.h"
+	"Puerta.h"
+	"fstream"
+	"json.hpp"
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/NivelFactory.h
+	<iostream>
+	<Nivel.h>
+
+1555080086 /home/jose/Escritorio/proyectos/msxplanet/include/json.hpp
+	<algorithm>
+	<cassert>
+	<ciso646>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<numeric>
+	<string>
+	<utility>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<ciso646>
+	<cstddef>
+	<type_traits>
+	<ciso646>
+	<limits>
+	<type_traits>
+	<utility>
+	<iterator>
+	<type_traits>
+	<exception>
+	<stdexcept>
+	<string>
+	<cstddef>
+	<array>
+	<ciso646>
+	<cstddef>
+	<cstdint>
+	<algorithm>
+	<array>
+	<ciso646>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<ciso646>
+	<iterator>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<string>
+	<iterator>
+	<tuple>
+	<cassert>
+	<cstddef>
+	<cstring>
+	<istream>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<clocale>
+	<cstddef>
+	<cstdlib>
+	<cstdio>
+	<initializer_list>
+	<string>
+	<vector>
+	<cassert>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<cstdint>
+	<utility>
+	<cassert>
+	<cstddef>
+	<string>
+	<vector>
+	<cstddef>
+	<limits>
+	<ciso646>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<algorithm>
+	<cstddef>
+	<ios>
+	<iterator>
+	<memory>
+	<ostream>
+	<string>
+	<vector>
+	<algorithm>
+	<array>
+	<cassert>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<algorithm>
+	<array>
+	<cstdint>
+	<cstring>
+	<limits>
+	<algorithm>
+	<array>
+	<cassert>
+	<ciso646>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<type_traits>
+	<cassert>
+	<ciso646>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<cassert>
+	<numeric>
+	<string>
+	<vector>
+	<utility>
+
+1555353638 source:/home/jose/Escritorio/proyectos/msxplanet/src/Nodo.cpp
+	"Nodo.h"
+
+1555248651 source:/home/jose/Escritorio/proyectos/msxplanet/src/ObjetoMapa.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"ObjetoMapa.h"
+
+1555080086 source:/home/jose/Escritorio/proyectos/msxplanet/src/Pocion.cpp
+	"Pocion.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555225579 source:/home/jose/Escritorio/proyectos/msxplanet/src/Roca.cpp
+	"Roca.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555080086 source:/home/jose/Escritorio/proyectos/msxplanet/src/State.cpp
+	"State.h"
+
+1555271923 source:/home/jose/Escritorio/proyectos/msxplanet/src/StateGameOver.cpp
+	"StateGameOver.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Juego.h>
+	<Motor2D.h>
+	<Juego.h>
+	<Constantes.h>
+
+1555271969 /home/jose/Escritorio/proyectos/msxplanet/include/StateGameOver.h
+	<Juego.h>
+	<SFML/Graphics.hpp>
+
+1555348742 source:/home/jose/Escritorio/proyectos/msxplanet/src/StateInGame.cpp
+	"StateInGame.h"
+	"Juego.h"
+	"NivelFactory.h"
+
+1555271929 source:/home/jose/Escritorio/proyectos/msxplanet/src/StateIntro.cpp
+	"StateIntro.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Juego.h>
+	<Motor2D.h>
+	"Utils.h"
+
+1555271936 source:/home/jose/Escritorio/proyectos/msxplanet/src/StateMapa.cpp
+	"StateMapa.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Juego.h>
+	<Motor2D.h>
+
+1555271942 source:/home/jose/Escritorio/proyectos/msxplanet/src/StateMenu.cpp
+	"StateMenu.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Juego.h>
+	<Motor2D.h>
+
+1555080086 source:/home/jose/Escritorio/proyectos/msxplanet/src/TileMap.cpp
+	"TileMap.h"
+	<SFML/Graphics.hpp>
+
+1555080086 source:/home/jose/Escritorio/proyectos/msxplanet/src/Utils.cpp
+	"Utils.h"
+
+1555355574 /home/jose/Escritorio/proyectos/msxplanet/include/Puerta.h
+	<ObjetoMapa.h>
+
+1555360103 source:/home/jose/Escritorio/proyectos/msxplanet/src/Puerta.cpp
+	"Puerta.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555357040 source:/home/jose/Escritorio/proyectos/msxplanet/src/Animacion.cpp
+	"Animacion.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555357040 /home/jose/Escritorio/proyectos/msxplanet/include/Animacion.h
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+
+1555225579 source:/home/jose/Escritorio/msxplanet/main.cpp
+	<SFML/Graphics.hpp>
+	<Juego.h>
+	<SFML/System.hpp>
+
+1555225579 /home/jose/Escritorio/msxplanet/include/Juego.h
+	<iostream>
+	<State.h>
+	<SFML/Graphics.hpp>
+
+1555274217 /home/jose/Escritorio/msxplanet/include/State.h
+	<SFML/Graphics.hpp>
+
+1555357040 source:/home/jose/Escritorio/msxplanet/src/Animacion.cpp
+	"Animacion.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555357040 /home/jose/Escritorio/msxplanet/include/Animacion.h
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+
+1555225579 source:/home/jose/Escritorio/msxplanet/src/Arma.cpp
+	"Arma.h"
+	"Jugador.h"
+	"Bala.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555225579 /home/jose/Escritorio/msxplanet/include/Arma.h
+	<ObjetoMapa.h>
+	"Motor2D.h"
+	"Jugador.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555248651 /home/jose/Escritorio/msxplanet/include/ObjetoMapa.h
+	<SFML/Graphics.hpp>
+
+1555080086 /home/jose/Escritorio/msxplanet/include/Motor2D.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555355574 /home/jose/Escritorio/msxplanet/include/Jugador.h
+	<Jugador.h>
+	<Mapa.h>
+	<ObjetoMapa.h>
+	<Bomba.h>
+	<Llave.h>
+	<Roca.h>
+	<Pocion.h>
+	<Puerta.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555353638 /home/jose/Escritorio/msxplanet/include/Mapa.h
+	<SFML/Graphics.hpp>
+	<TileMap.h>
+
+1555080086 /home/jose/Escritorio/msxplanet/include/TileMap.h
+	<SFML/Graphics.hpp>
+	<cstdlib>
+	<iostream>
+
+1555362000 /home/jose/Escritorio/msxplanet/include/Bomba.h
+	<ObjetoMapa.h>
+
+1555080086 /home/jose/Escritorio/msxplanet/include/Llave.h
+	<ObjetoMapa.h>
+
+1555225579 /home/jose/Escritorio/msxplanet/include/Roca.h
+	<ObjetoMapa.h>
+
+1555080086 /home/jose/Escritorio/msxplanet/include/Pocion.h
+	<iostream>
+	<ObjetoMapa.h>
+	<SFML/Graphics.hpp>
+
+1555355574 /home/jose/Escritorio/msxplanet/include/Puerta.h
+	<ObjetoMapa.h>
+
+1555080086 /home/jose/Escritorio/msxplanet/include/Utils.h
+	<iostream>
+	<sstream>
+
+1555347119 /home/jose/Escritorio/msxplanet/include/Bala.h
+	<iostream>
+	<Enemigo.h>
+	<Juego.h>
+
+1555353638 /home/jose/Escritorio/msxplanet/include/Enemigo.h
+	<SFML/Graphics.hpp>
+	<math.h>
+	<iostream>
+	<vector>
+	<algorithm>
+	"Jugador.h"
+	"Mapa.h"
+	"Nodo.h"
+
+1555353638 /home/jose/Escritorio/msxplanet/include/Nodo.h
+	<iostream>
+
+1555347119 source:/home/jose/Escritorio/msxplanet/src/Bala.cpp
+	"Bala.h"
+	"Arma.h"
+	<SFML/Graphics.hpp>
+
+1555363630 source:/home/jose/Escritorio/msxplanet/src/Bomba.cpp
+	"Bomba.h"
+	"Enemigo.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555080086 source:/home/jose/Escritorio/msxplanet/src/Constantes.cpp
+	"Constantes.h"
+
+1555080086 /home/jose/Escritorio/msxplanet/include/Constantes.h
+	<SFML/Graphics.hpp>
+
+1555353638 source:/home/jose/Escritorio/msxplanet/src/Enemigo.cpp
+	"Enemigo.h"
+
+1555353638 source:/home/jose/Escritorio/msxplanet/src/EnemigoAereo.cpp
+	"EnemigoAereo.h"
+	<iostream>
+	<math.h>
+	<vector>
+	<algorithm>
+	<SFML/Graphics.hpp>
+
+1555353638 /home/jose/Escritorio/msxplanet/include/EnemigoAereo.h
+	"Enemigo.h"
+	<SFML/Graphics.hpp>
+
+1555227194 source:/home/jose/Escritorio/msxplanet/src/EnemigoEstatico.cpp
+	"EnemigoEstatico.h"
+
+1555090533 /home/jose/Escritorio/msxplanet/include/EnemigoEstatico.h
+	<Enemigo.h>
+
+1555353638 source:/home/jose/Escritorio/msxplanet/src/EnemigoExplosivo.cpp
+	"EnemigoExplosivo.h"
+
+1555353638 /home/jose/Escritorio/msxplanet/include/EnemigoExplosivo.h
+	"Enemigo.h"
+
+1555080086 source:/home/jose/Escritorio/msxplanet/src/EnemigoFactory.cpp
+	"EnemigoFactory.h"
+
+1555080086 /home/jose/Escritorio/msxplanet/include/EnemigoFactory.h
+	"Enemigo.h"
+	"EnemigoExplosivo.h"
+	"EnemigoAereo.h"
+	"EnemigoEstatico.h"
+	"EnemigoMSX.h"
+
+1555274026 /home/jose/Escritorio/msxplanet/include/EnemigoMSX.h
+	<vector>
+	<stdlib.h>
+	<math.h>
+	<Enemigo.h>
+	<SFML/Graphics.hpp>
+
+1555274026 source:/home/jose/Escritorio/msxplanet/src/EnemigoMSX.cpp
+	"EnemigoMSX.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<math.h>
+
+1555348763 source:/home/jose/Escritorio/msxplanet/src/Hud.cpp
+	"Hud.h"
+	<Motor2D.h>
+	<Constantes.h>
+	<Juego.h>
+
+1555348878 /home/jose/Escritorio/msxplanet/include/Hud.h
+	"SFML/Graphics.hpp"
+	<Jugador.h>
+
+1555361184 source:/home/jose/Escritorio/msxplanet/src/Juego.cpp
+	"Juego.h"
+	"Constantes.h"
+	<SFML/Graphics.hpp>
+	<State.h>
+	<StateIntro.h>
+	<StateMenu.h>
+	<StateMapa.h>
+	<StateInGame.h>
+	<StateGameOver.h>
+
+1555271977 /home/jose/Escritorio/msxplanet/include/StateIntro.h
+	<Juego.h>
+	<SFML/Graphics.hpp>
+
+1555271948 /home/jose/Escritorio/msxplanet/include/StateMenu.h
+	<Juego.h>
+	<SFML/Graphics.hpp>
+
+1555271957 /home/jose/Escritorio/msxplanet/include/StateMapa.h
+	<Juego.h>
+	<SFML/Graphics.hpp>
+
+1555347133 /home/jose/Escritorio/msxplanet/include/StateInGame.h
+	<Juego.h>
+	<Nivel.h>
+	<Jugador1.h>
+	<Jugador2.h>
+	<Mapa.h>
+	<Hud.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	<stdio.h>
+
+1555080086 /home/jose/Escritorio/msxplanet/include/Nivel.h
+	<Mapa.h>
+	<Enemigo.h>
+	<Pocion.h>
+	<iostream>
+	<vector>
+	"Jugador.h"
+	"Bala.h"
+
+1555352571 /home/jose/Escritorio/msxplanet/include/Jugador1.h
+	<Jugador.h>
+	<SFML/Graphics.hpp>
+
+1555274217 /home/jose/Escritorio/msxplanet/include/Jugador2.h
+	<Jugador.h>
+
+1555271969 /home/jose/Escritorio/msxplanet/include/StateGameOver.h
+	<Juego.h>
+	<SFML/Graphics.hpp>
+
+1555362500 source:/home/jose/Escritorio/msxplanet/src/Jugador.cpp
+	"Juego.h"
+	"Jugador.h"
+	"Mapa.h"
+	"Arma.h"
+	"ObjetoMapa.h"
+	"Constantes.h"
+	"Arma.h"
+	"Bomba.h"
+	"Llave.h"
+	"Roca.h"
+	"Pocion.h"
+	"Enemigo.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555352574 source:/home/jose/Escritorio/msxplanet/src/Jugador1.cpp
+	"Jugador1.h"
+	"Mapa.h"
+	"iostream"
+
+1555339798 source:/home/jose/Escritorio/msxplanet/src/Jugador2.cpp
+	"Jugador2.h"
+	"iostream"
+
+1555080086 source:/home/jose/Escritorio/msxplanet/src/Llave.cpp
+	"Llave.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555080086 source:/home/jose/Escritorio/msxplanet/src/Mapa.cpp
+	"Mapa.h"
+	"Constantes.h"
+
+1555080086 source:/home/jose/Escritorio/msxplanet/src/Motor2D.cpp
+	"Motor2D.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555226885 source:/home/jose/Escritorio/msxplanet/src/Nivel.cpp
+	"Nivel.h"
+	<iostream>
+	<Enemigo.h>
+
+1555355574 source:/home/jose/Escritorio/msxplanet/src/NivelFactory.cpp
+	"NivelFactory.h"
+	"Utils.h"
+	"EnemigoFactory.h"
+	"Pocion.h"
+	"Roca.h"
+	"Arma.h"
+	"Bomba.h"
+	"Llave.h"
+	"Puerta.h"
+	"fstream"
+	"json.hpp"
+
+1555080086 /home/jose/Escritorio/msxplanet/include/NivelFactory.h
+	<iostream>
+	<Nivel.h>
+
+1555080086 /home/jose/Escritorio/msxplanet/include/json.hpp
+	<algorithm>
+	<cassert>
+	<ciso646>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<numeric>
+	<string>
+	<utility>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<ciso646>
+	<cstddef>
+	<type_traits>
+	<ciso646>
+	<limits>
+	<type_traits>
+	<utility>
+	<iterator>
+	<type_traits>
+	<exception>
+	<stdexcept>
+	<string>
+	<cstddef>
+	<array>
+	<ciso646>
+	<cstddef>
+	<cstdint>
+	<algorithm>
+	<array>
+	<ciso646>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<ciso646>
+	<iterator>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<string>
+	<iterator>
+	<tuple>
+	<cassert>
+	<cstddef>
+	<cstring>
+	<istream>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<clocale>
+	<cstddef>
+	<cstdlib>
+	<cstdio>
+	<initializer_list>
+	<string>
+	<vector>
+	<cassert>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<cstdint>
+	<utility>
+	<cassert>
+	<cstddef>
+	<string>
+	<vector>
+	<cstddef>
+	<limits>
+	<ciso646>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<algorithm>
+	<cstddef>
+	<ios>
+	<iterator>
+	<memory>
+	<ostream>
+	<string>
+	<vector>
+	<algorithm>
+	<array>
+	<cassert>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<algorithm>
+	<array>
+	<cstdint>
+	<cstring>
+	<limits>
+	<algorithm>
+	<array>
+	<cassert>
+	<ciso646>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<type_traits>
+	<cassert>
+	<ciso646>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<cassert>
+	<numeric>
+	<string>
+	<vector>
+	<utility>
+
+1555353638 source:/home/jose/Escritorio/msxplanet/src/Nodo.cpp
+	"Nodo.h"
+
+1555248651 source:/home/jose/Escritorio/msxplanet/src/ObjetoMapa.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"ObjetoMapa.h"
+
+1555080086 source:/home/jose/Escritorio/msxplanet/src/Pocion.cpp
+	"Pocion.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555360103 source:/home/jose/Escritorio/msxplanet/src/Puerta.cpp
+	"Puerta.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555225579 source:/home/jose/Escritorio/msxplanet/src/Roca.cpp
+	"Roca.h"
+	"Motor2D.h"
+	"Utils.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555080086 source:/home/jose/Escritorio/msxplanet/src/State.cpp
+	"State.h"
+
+1555271923 source:/home/jose/Escritorio/msxplanet/src/StateGameOver.cpp
+	"StateGameOver.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Juego.h>
+	<Motor2D.h>
+	<Juego.h>
+	<Constantes.h>
+
+1555348742 source:/home/jose/Escritorio/msxplanet/src/StateInGame.cpp
+	"StateInGame.h"
+	"Juego.h"
+	"NivelFactory.h"
+
+1555271929 source:/home/jose/Escritorio/msxplanet/src/StateIntro.cpp
+	"StateIntro.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Juego.h>
+	<Motor2D.h>
+	"Utils.h"
+
+1555271936 source:/home/jose/Escritorio/msxplanet/src/StateMapa.cpp
+	"StateMapa.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Juego.h>
+	<Motor2D.h>
+
+1555271942 source:/home/jose/Escritorio/msxplanet/src/StateMenu.cpp
+	"StateMenu.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Juego.h>
+	<Motor2D.h>
+
+1555080086 source:/home/jose/Escritorio/msxplanet/src/TileMap.cpp
+	"TileMap.h"
+	<SFML/Graphics.hpp>
+
+1555080086 source:/home/jose/Escritorio/msxplanet/src/Utils.cpp
+	"Utils.h"
+
